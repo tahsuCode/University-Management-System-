@@ -1,0 +1,67 @@
+body {
+    background: url('unipic2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.form_deg {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-top: 100px;
+}
+
+.title_deg {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.label_deg {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h4 {
+    color: red;
+}
+
+.back-to-index {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.back-to-index a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-index a:hover {
+    text-decoration: underline;
+}
